@@ -7,7 +7,7 @@
 
 <h1>MongoRepoX - MongoDB Repository Library</h1>
 
-<p><strong>MongoRepoX</strong> is a generic MongoDB repository library that simplifies CRUD operations, making it easy to work with MongoDB collections in a flexible and strongly-typed way.</p>
+<p><strong>MongoRepoX</strong>MongoRepoX is a generic MongoDB repository library that simplifies CRUD operations, making it easy to work with MongoDB collections in a flexible and strongly-typed way. Additionally, the library supports pagination, making it easier to handle large datasets efficiently.</p>
 
 <h2>Usage</h2>
 
