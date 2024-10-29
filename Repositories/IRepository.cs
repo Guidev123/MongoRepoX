@@ -35,7 +35,7 @@ namespace MongoRepoX.Repositories
         /// Updates an existing entity in the repository.
         /// </summary>
         /// <param name="entity">The entity to update.</param>
-        Task UpdateAsync(TEntity entity);
+        Task UpdateAsync(TKey id, TEntity entity);
 
         /// <summary>
         /// Removes an entity by its identifier.

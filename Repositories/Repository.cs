@@ -54,7 +54,7 @@ namespace MongoRepoX.Repositories
         /// Updates an existing entity in the MongoDB collection.
         /// </summary>
         /// <param name="entity">The entity to update.</param>
-        public async Task UpdateAsync(TEntity entity) =>
-            await _collection.ReplaceOneAsync(c => c.Id.Equals(entity.Id), entity);
+        public async Task UpdateAsync(TKey id, TEntity entity) =>
+            await _collection.ReplaceOneAsync(c => c.Id.Equals(id), entity);
     }
 }
